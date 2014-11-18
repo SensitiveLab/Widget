@@ -1,0 +1,24 @@
+{
+    "name": "sensitive-lab/widget",
+    "description": "",
+    "authors": [
+        {
+            "name": "Patrick Dorio",
+            "email": "patrick.dorio@sensitive-lab.fr"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "5.0.*",
+        "pingpong/widget": "1.0.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "SensitiveLab\\Widget": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
